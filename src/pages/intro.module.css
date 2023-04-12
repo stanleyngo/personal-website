@@ -108,6 +108,10 @@
     overflow-y: auto;
 }
 
+.linkButtons {
+    color: white;
+}
+
 .linksContent {
     animation: linksContent 0.5s ease-in-out forwards;
     position: fixed;
@@ -167,6 +171,7 @@
 .experienceButtons {
     animation: experienceButtons 3.0s ease-in-out forwards;
     padding-right: 10%;
+    color: white;
 }
 
 .experience {
@@ -305,8 +310,13 @@
     overflow-y: auto;
 }
 
+.topBarButtons {
+    color: white;
+}
+
 .siteButtons {
     background-color: gray;
+    color: gray;
     position: relative;
 }
 
