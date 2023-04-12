@@ -1,0 +1,341 @@
+.mainContainer {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.intro {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s, visibility 0s 1s;
+}
+
+.intro.visible {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 5s;
+    background-color: black;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.content {
+    position: relative;
+    overflow-y: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2em;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.fadeIn {
+    animation: fadeIn 0.5s ease-in-out forwards;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 0.5em;
+    position: fixed;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Button {
+    text-transform: lowercase;
+    color: white;
+}
+
+.listItem:before {
+    content: "•";
+    display: inline-block;
+    width: 1.5em;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+}
+
+.listContainer {
+  position: fixed;
+  top: 100%;
+  left: 3;
+  margin-top: 8px;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.listItemText {
+    font-size: 0.7em;
+}
+
+.container {
+    min-height: 1000vh;
+    overflow-y: auto;
+}
+
+.links {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.linksContent {
+    animation: linksContent 0.5s ease-in-out forwards;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2em;
+}
+
+@keyframes linksContent {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(1);
+    }
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrollButtonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 10%;
+    left: 90%;
+    z-index: 100;
+}
+
+.scrollButtons {
+    color: white;
+    background-color: transparent;
+    transform: scale(1.8);
+    padding-bottom: 20px;
+}
+
+.experienceButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 10%;
+}
+
+.experienceButtons {
+    animation: experienceButtons 3.0s ease-in-out forwards;
+    padding-right: 10%;
+}
+
+.experience {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.experienceContent {
+    animation: experienceContent 0.5s ease-in-out forwards;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2em;
+}
+
+.dialogContent {
+    height: '100vh';
+    padding: '24px';
+    box-sizing: 'border-box';
+}
+
+.modalContentContainer {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    overflow-y: auto;
+  }
+
+.modalContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.modalContentTop {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    background-color: rgb(218, 218, 218);
+  }
+
+.modalImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContentBottom {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.topBarButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.topBarButtons {
+    color: white;
+}
+
+@keyframes experienceContent {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(1);
+    }
+}
+
+@keyframes experienceButtons {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(1);
+    }
+}
+
+.fullSite {
+    animation: fullSite 1.5s ease-in-out forwards;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.siteButtons {
+    background-color: gray;
+    position: relative;
+}
+
+.box {
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+    background-color: "#F0F0F0";
+    width: "350px";
+    height: "350px";
+    padding: "2";
+    border-radius: "25px";
+    position: relative;
+}
+
+.bar {
+    background-color: black;
+    height: "20%";
+    position: relative;
+}
+
+@keyframes fullSite {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(1);
+    }
+}
+
