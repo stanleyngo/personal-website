@@ -42,17 +42,17 @@ export default function FullSite() {
                         </div>
                         <div className = {styles.topBarButtonsContainer}>
                             <a href="https://github.com/stanleyngo" target="_blank" rel="noopener noreferrer">
-                                <Button className = {styles.topBarButtons} variant = "contained" style = {{ color: 'white'}} startIcon = {<GitHubIcon />}>
+                                <Button className = {styles.topBarButtons} variant = "contained" style = {{ color: 'white', backgroundColor: 'black'}} startIcon = {<GitHubIcon />}>
                                     Github
                                 </Button>
                             </a>
                             <a href="https://www.linkedin.com/in/stanley-ngo-b64364217/" target="_blank" rel="noopener noreferrer">
-                                    <Button variant = "contained" style = {{ color: 'white'}} startIcon = {<LinkedinIcon />}>
+                                    <Button className = {styles.topBarButtons} variant = "contained" style = {{ color: 'white', backgroundColor: 'black'}} startIcon = {<LinkedinIcon />}>
                                         Linkedin
                                     </Button>
                             </a>
                             <a href = "mailto: stanleyhngo@gmail.com">
-                                    <Button variant = "contained" style = {{ color: 'white'}} startIcon = {<EmailIcon />}>
+                                    <Button className = {styles.topBarButtons} variant = "contained" style = {{ color: 'white', backgroundColor: 'black'}} startIcon = {<EmailIcon />}>
                                         Contact me
                                     </Button>
                             </a>
@@ -94,7 +94,7 @@ export default function FullSite() {
                             className={styles.siteButtons}
                             bgcolor = "white"
                             variant="contained"
-                            style={{ width: "100%", height: "100%", color: "gray" }}
+                            style={{ width: "100%", height: "100%", backgroundColor: "gray" }}
                             onClick={() =>
                                 handleOpen(
                                     <div style = {{width: '100%', height: '100%'}}>
@@ -136,7 +136,7 @@ export default function FullSite() {
                         <Button
                             className={styles.siteButtons}
                             variant="contained"
-                            style={{ width: "100%", height: "100%", color: "gray" }}
+                            style={{ width: "100%", height: "100%", backgroundColor: "gray" }}
                             onClick={() =>
                                 handleOpen(
                                     <div style = {{width: '100%', height: '100%'}}>
@@ -181,7 +181,7 @@ export default function FullSite() {
                         <Button
                             className={styles.siteButtons}
                             variant="contained"
-                            style={{ width: "100%", height: "100%", color: "gray" }}
+                            style={{ width: "100%", height: "100%", backgroundColor: "gray" }}
                             onClick={() =>
                                 handleOpen(
                                     <div style = {{width: '100%', height: '100%'}}>
