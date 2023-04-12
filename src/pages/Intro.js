@@ -32,7 +32,7 @@ export default function Intro() {
         <div className = {styles.intro + ' ' + (showIntro ? styles.visible : ' ')}>
             <div className = {styles.content}>
                 <div className= {montserrat.className}>
-                    <h1>hi, i'm Stanley Ngo</h1>
+                    <h1>hi, i&apos;m Stanley Ngo</h1>
                     <p>call me Stanley or Stan :)</p>
                     <p>reach me at: stanleyhngo@gmail.com</p>
                 </div>
@@ -60,7 +60,7 @@ export default function Intro() {
                             <ListItemText primary = {<span className = {styles.listItemText}>  currently working as a developer but open to branching out </span>}/>
                         </ListItem>
                         <ListItem className = {styles.listItem}>
-                            <ListItemText primary = {<span className = {styles.listItemText}> based in Boston, MA </span>}/>
+                            <ListItemText primary = {<span className = {styles.listItemText}> based in Quincy, MA </span>}/>
                         </ListItem>
                     </List>
                 )}

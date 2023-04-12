@@ -61,15 +61,15 @@ export default function FullSite() {
                 </AppBar>
                 <div style={{ marginLeft: '15%', paddingTop: '2rem' }}>
                     <Typography variant="h4" style={{ fontWeight: 'bold', paddingBottom: '50px' }}>
-                        hey, i'm Stanley Ngo.
+                        hey, i&apos;m Stanley Ngo.
                     </Typography>
                     <Typography variant="body1">
-                        I'm graduating with a Computer Science degree from UMass Amherst in May 2023.
+                        I&apos;m graduating with a Computer Science degree from UMass Amherst in May 2023.
                         <Typography variant="body1" component="span" style={{ display: 'block' }}>
-                            Currently, I've accepted a return offer to work as a Software Developer for Pearson.
+                            Currently, I&apos;ve accepted a return offer to work as a Software Developer for Pearson.
                         </Typography>
                         <Typography variant="body1" component="span" style={{ display: 'block' }}>
-                            I'm working as a developer right now, but open to branching out and trying new related fields.
+                            I&apos;m working as a developer right now, but open to branching out and trying new related fields.
                         </Typography>
                         <Typography variant="body1" component="span" style={{ display: 'block', paddingBottom: '100px' }}>
                             Based in Quincy, MA.
@@ -77,7 +77,7 @@ export default function FullSite() {
                     </Typography>
 
                     <Typography variant = "h5" style = {{fontWeight: 'bold', paddingBottom: '20px'}}>
-                        here's some of my experience.
+                        here&apos;s some of my experience.
                     </Typography>
                     <div style = {{display: 'flex', flexDirection: 'row'}}>
                     <Box
