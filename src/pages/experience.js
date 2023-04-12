@@ -32,6 +32,7 @@ export default function Experience() {
                 <div className = {styles.experienceButtonsContainer}>
                     <Button
                         className={styles.experienceButtons}
+                        style = {{ color: 'black' }}
                         variant="contained"
                         onClick={() =>
                             handleOpen(
@@ -62,6 +63,7 @@ export default function Experience() {
                     </Button>
                     <Button
                         className={styles.experienceButtons}
+                        style = {{ color: 'black' }}
                         variant="contained"
                         onClick={() =>
                             handleOpen(
@@ -95,6 +97,7 @@ export default function Experience() {
                     </Button>
                     <Button
                         className={styles.experienceButtons}
+                        style = {{ color: 'black' }}
                         variant="contained"
                         onClick={() =>
                             handleOpen(

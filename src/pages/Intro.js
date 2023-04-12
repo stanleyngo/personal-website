@@ -40,6 +40,7 @@ export default function Intro() {
             <div className = {`${styles.hidden} ${showButton ? styles.fadeIn : ''}`}>
                 <Button 
                 className = {styles.Button}
+                style = {{ color: 'white'}}
                 endIcon = {<ArrowDropDownIcon/>}
                 onClick = {handleClick}
                 onClose = {handleClose}>

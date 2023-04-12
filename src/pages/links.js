@@ -23,17 +23,17 @@ export default function Links() {
                     <h1>feel free to check out these links: </h1>
                     <div className = {styles.buttonsContainer}>
                         <a href="https://github.com/stanleyngo" target="_blank" rel="noopener noreferrer">
-                            <Button variant = "contained" color = "primary" startIcon = {<GitHubIcon />}>
+                            <Button variant = "contained" style = {{ color: 'black'}} startIcon = {<GitHubIcon />}>
                                 Github
                             </Button>
                         </a>
                         <a href="https://www.linkedin.com/in/stanley-ngo-b64364217/" target="_blank" rel="noopener noreferrer">
-                            <Button variant = "contained" color = "primary" startIcon = {<LinkedinIcon />}>
+                            <Button variant = "contained" style = {{ color: 'black'}} startIcon = {<LinkedinIcon />}>
                                 Linkedin
                             </Button>
                         </a>
                         <a href = "mailto: stanleyhngo@gmail.com">
-                            <Button variant = "contained" color = "primary" startIcon = {<EmailIcon />}>
+                            <Button variant = "contained" style = {{ color: 'black'}} startIcon = {<EmailIcon />}>
                                 Contact me
                             </Button>
                         </a>

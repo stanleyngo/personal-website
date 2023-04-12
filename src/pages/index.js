@@ -26,7 +26,7 @@ export default function Home() {
       <div className = {styles.scrollButtonsContainer}>
       { scrollCount != 0 && <Button className = {styles.scrollButtons} style = {{ color: 'white'}} onClick = {() => handleScroll("up")} startIcon = {<ArrowUpwardIcon />}>
       </Button> }
-      { scrollCount != 3 && <Button className = {styles.scrollButtons} onClick = {() => handleScroll("down")} startIcon = {<ArrowDownwardIcon />}>
+      { scrollCount != 3 && <Button className = {styles.scrollButtons} style = {{ color: 'white'}} onClick = {() => handleScroll("down")} startIcon = {<ArrowDownwardIcon />}>
 
       </Button> }
       </div>
